@@ -1,0 +1,10 @@
+{
+    "appBar.pageTitle": "Suche nach Hotels",
+    "listings.search": "Suche",
+    "listings.details": "Einzelheiten",
+    "listings.propertyType": "Art der Immobilie",
+    "listings.numberOfBedrooms": "Anzahl der Schlafzimmer",
+    "listings.numberOfBathrooms": "Anzahl der Badezimmer",
+    "listings.guests": "Gäste",
+    "listings.averageNightlyPrice": "Durchschnittlicher Preis pro Nacht"
+}

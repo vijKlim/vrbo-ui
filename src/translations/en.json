@@ -1,0 +1,10 @@
+{
+    "appBar.pageTitle": "Search for Hotels",
+    "listings.search": "Search",
+    "listings.details": "Details",
+    "listings.propertyType": "Property Type",
+    "listings.numberOfBedrooms": "Number of Bedrooms",
+    "listings.numberOfBathrooms": "Number of Bathrooms",
+    "listings.guests": "Guests",
+    "listings.averageNightlyPrice": "Average Nightly Price"
+}

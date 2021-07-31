@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  webpack:
+    build:
+      dockerfile: './docker/webpack/Dockerfile'
+      context: '.'
+    image: vbro/webpack
+    ports:
+      - '8080:8080'
+    volumes:
+      # https://stackoverflow.com/questions/29181032/add-a-volume-to-docker-but-exclude-a-sub-folder
+      - '.:/usr/src/docker-react-sample'
+      - 'node_modules_webpack:/usr/src/docker-react-sample/node_modules/'
+
+
+
+volumes:
+  node_modules_webpack:
